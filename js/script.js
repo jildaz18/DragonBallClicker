@@ -395,3 +395,6 @@ function thanosNum() {
   cookiesNum += thanosCookies;
   cookies.innerHTML = cookiesNum + " Ki";
 }
+
+const click = new Audio('./sound/blast.mp3');
+click.play()
