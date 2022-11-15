@@ -1,3 +1,5 @@
+const click = new Audio('./DragonBallClicker/sound/blast.mp3');
+click.play()
 var cookiesNum = 0;
 cookies.innerHTML = cookiesNum + " Ki";
 localStorage.setItem("lead", 12333)
@@ -395,6 +397,3 @@ function thanosNum() {
   cookiesNum += thanosCookies;
   cookies.innerHTML = cookiesNum + " Ki";
 }
-
-const click = new Audio('./sound/blast.mp3');
-click.play()
