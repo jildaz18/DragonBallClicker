@@ -1,0 +1,425 @@
+@font-face{
+  font-family: Saiyan Sans;
+  src: url(./font/Saiyan-Sans.ttf);
+}
+
+body{
+  font-family: Saiyan Sans;
+  text-align: center;
+  background-image: url(../images/sky.png);
+}
+
+#openhomepage{
+  background-image: rgb(255, 255, 255);
+  border-radius: 25px;
+  width: 150px;
+  top: 65%;
+  left: 88%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+#upgradebtn{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: kaioken;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+
+#upgradebtn:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#cookie{
+  padding-left: -200px;
+  cursor: pointer;
+}
+
+#test {
+  width: 500px;
+  height: 500px;
+  transform-origin: 50% 50%;
+  opacity: 65%;
+}
+@-webkit-keyframes rotating {
+  from{
+      -webkit-transform: rotate(0deg);
+  }
+  to{
+      -webkit-transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 10s linear infinite;
+}
+
+#cookie:hover{
+  margin: 0px;
+  padding: 0px;
+}
+
+#grandmalol{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: supersaiyan;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+#grandmalol:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#grandmalol:active{
+  background-color: black;
+}
+
+#chef{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: supersaiyan2;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+
+#chef:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#chef:active{
+  background-color: black;
+}
+
+#factory{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: supersaiyan3;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+
+#cookies{
+  font-family: Saiyan Sans;
+  font-size: 50px;
+}
+
+#factory:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#factory:active{
+  background-color: black;
+}
+
+#showUpgrades{
+  font-size: 30px;
+  background-color: rgb(0, 0, 0);
+  color:white;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#showUpgrades:active{
+  background-color: black;
+}
+
+@keyframes kaioken{
+  0% {color: rgb(255, 190, 190);}
+  50% {color: rgb(255, 0, 0);}
+  100% {color: rgb(255, 145, 145);}
+}
+
+@keyframes supersaiyan{
+  0% {color: rgb(253, 255, 224);}
+  50% {color: rgb(255, 187, 0);}
+  100% {color: rgb(244, 255, 85);}
+}
+
+@keyframes supersaiyan2{
+  0% {color: rgb(253, 255, 224);}
+  50% {color: rgb(255, 187, 0);}
+  75% {color:rgb(244, 255, 85);}
+  80% {color: rgb(85, 187, 255);}
+  100% {color: rgb(255, 187, 0);}
+}
+
+@keyframes supersaiyan3{
+  0% {color: rgb(245, 255, 112);}
+  15% {color: rgb(255, 187, 0);}
+  25% {color:rgb(244, 255, 85);}
+  35% {color: rgb(85, 187, 255);}
+  45% {color: rgb(255, 187, 0);}
+  55% {color: rgb(245, 255, 112);}
+  65% {color: rgb(255, 187, 0);}
+  75% {color:rgb(244, 255, 85);}
+  85% {color: rgb(85, 187, 255);}
+  95% {color: rgb(255, 187, 0);}
+  100% {color: rgb(245, 255, 112);}
+}
+
+@keyframes ssjdivin{
+  0% {color: rgb(255, 132, 16);}
+  50% {color: rgb(255, 0, 0);}
+  100% {color: rgb(255, 132, 16);}
+}
+
+@keyframes ssjblue{
+  0% {color: rgb(16, 187, 255);}
+  50% {color: rgb(180, 219, 255);}
+  100% {color: rgb(16, 187, 255);}
+}
+
+@keyframes ssjbluekaioken{
+  0% {color: rgb(16, 187, 255);}
+  50% {color: rgb(180, 219, 255);}
+  75% {color: rgb(16, 187, 255);}
+  80% {color: rgb(255, 16, 16);}
+  90% {color: rgb(16, 187, 255);}
+  100% {color: rgb(180, 219, 255);}
+}
+
+@keyframes mi{
+  0% {color: rgb(138, 106, 255);}
+  10% {color: rgb(255, 255, 255);}
+  20% {color: rgb(169, 214, 255);}
+  30% {color: rgb(134, 101, 255);}
+  40% {color: rgb(255, 255, 255);}
+  50% {color: rgb(155, 207, 255);}
+  60% {color: rgb(137, 104, 255);}
+  70% {color: rgb(255, 255, 255);}
+  80% {color: rgb(190, 224, 255);}
+  90% {color: rgb(130, 95, 255);}
+  100% {color: rgb(255, 255, 255);}
+}
+
+@keyframes mmi{
+  0% {color: rgb(138, 106, 255);}
+  10% {color: rgb(255, 255, 255);}
+  15% {color: rgb(169, 214, 255);}
+  20% {color: rgb(134, 101, 255);}
+  25% {color: rgb(255, 255, 255);}
+  30% {color: rgb(155, 207, 255);}
+  35% {color: rgb(137, 104, 255);}
+  40% {color: rgb(255, 255, 255);}
+  45% {color: rgb(190, 224, 255);}
+  50% {color: rgb(130, 95, 255);}
+  55% {color: rgb(255, 255, 255);}
+  60% {color: rgb(138, 106, 255);}
+  65% {color: rgb(255, 255, 255);}
+  70% {color: rgb(169, 214, 255);}
+  75% {color: rgb(134, 101, 255);}
+  80% {color: rgb(255, 255, 255);}
+  85% {color: rgb(155, 207, 255);}
+  90% {color: rgb(137, 104, 255);}
+  95% {color: rgb(255, 255, 255);}
+  100% {color: rgb(190, 224, 255);}
+}
+
+#HighSpeedProcessor{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: ssjdivin;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+#HighSpeedProcessor:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+#HighSpeedProcessor:active{
+  background-color: black;
+}
+#CookieHacker{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: ssjblue;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+#CookieHacker:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#CookieHacker:active{
+  background-color: black;
+  cursor: pointer;
+}
+
+#robot{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: ssjbluekaioken;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+#robot:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#robot:active{
+  background-color: black;
+}
+#robot2{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: mi;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+#robot2:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#robot2:active{
+  background-color: black;
+}
+#thanos{
+  font-size: 30px;
+  background-color: black;
+  font-family: Saiyan Sans;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid rgb(0, 0, 0);
+  animation-name: mmi;
+  animation-duration: 3s;
+  animation-iteration-count: 1000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+#thanos:hover{
+  background-color: rgb(37, 37, 37);
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#thanos:active{
+  background-color:black;
+}
+
+#versionControl{
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: right;
+  padding-right: 25px;
+}
+
