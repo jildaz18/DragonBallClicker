@@ -393,5 +393,5 @@ function thanosIntervalFunc() {
 function thanosNum() {
   thanosCookies = thanos * thanosCookieAmount;
   cookiesNum += thanosCookies;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
