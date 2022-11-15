@@ -1,5 +1,5 @@
 var cookiesNum = 0;
-cookies.innerHTML = cookiesNum + " Cookies";
+cookies.innerHTML = cookiesNum + " Ki";
 localStorage.setItem("lead", 12333)
 var lead = localStorage.getItem("lead")
 var cookieimg = document.getElementById("cookie");
@@ -111,7 +111,7 @@ var malwarebtn = document.getElementById("malwarebtn");
 var leaders = document.getElementById("leaders")
 function addcookie() {
   cookiesNum += upgrade;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
 
 // Kaioken au clic //
@@ -120,7 +120,7 @@ function upgradefunc() {
   if (cookiesNum >= cookieamount) {
     upgrade += 1;
     cookiesNum -= cookieamount;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     document.querySelector("#cookie").src = './images/3.png';
     document.querySelector('body').style.backgroundImage = "url('images/a.png')";
     var audioElement = document.createElement('audio');
@@ -136,7 +136,7 @@ function grandma() {
   if (cookiesNum >= grandmaAmount) {
     cookiesNum -= grandmaAmount;
     grandmas += 1;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     grandmaIntFunc()
     document.querySelector("#cookie").src = './images/4.png'
     document.querySelector('body').style.backgroundImage = "url('images/b.png')";
@@ -152,14 +152,14 @@ function grandmaIntFunc() {
 
 function grandmaNum() {
   cookiesNum += grandmas;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
 
 function chef() {
   if (cookiesNum >= chefAmount) {
     cookiesNum -= chefAmount;
     chefs += 1;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     chefIntervalFunc()
     document.querySelector("#cookie").src = './images/5.png'
     document.querySelector('body').style.backgroundImage = "url('images/b.png')";
@@ -176,14 +176,14 @@ function chefIntervalFunc() {
 function chefNum() {
   chefcookies = chefs * chefcookieAmount;
   cookiesNum += chefcookies;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
 
 function factory() {
   if (cookiesNum >= factoryAmount) {
     cookiesNum -= factoryAmount;
     factories += 1;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     factoryIntervalFunc()
     document.querySelector("#cookie").src = './images/6.png'
     document.querySelector('body').style.backgroundImage = "url('images/b.png')";
@@ -200,7 +200,7 @@ function factoryIntervalFunc() {
 function factoryNum() {
   factoryCookies = factories * factoryCookieAmount;
   cookiesNum += factoryCookies;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
 
 function showAllUpgrades() {
@@ -274,7 +274,7 @@ function processor() {
   if (cookiesNum >= processorAmount) {
     cookiesNum -= processorAmount;
     processors += 1;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     processorIntervalFunc()
     document.querySelector("#cookie").src = './images/7.png'
     document.querySelector('body').style.backgroundImage = "url('images/c.png')";
@@ -291,14 +291,14 @@ function processorIntervalFunc() {
 function processorNum() {
   processorCookies = processors * processorCookieAmount;
   cookiesNum += processorCookies;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
 
 function hacker() {
   if (cookiesNum >= hackerAmount) {
     cookiesNum -= hackerAmount;
     hackers += 1;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     hackerIntervalFunc()
     document.querySelector("#cookie").src = './images/8.png'
     document.querySelector('body').style.backgroundImage = "url('images/d.png')";
@@ -315,7 +315,7 @@ function hackerIntervalFunc() {
 function hackerNum() {
   hackerCookies = hackers * hackerCookieAmount;
   cookiesNum += hackerCookies;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
 
 //Super Saiyan Blue Kaioken//
@@ -324,7 +324,7 @@ function robot() {
   if (cookiesNum >= robotAmount) {
     cookiesNum -= robotAmount;
     robots += 1;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     robotIntervalFunc()
     document.querySelector("#cookie").src = './images/9.png'
     document.querySelector('body').style.backgroundImage = "url('images/e.png')";
@@ -341,7 +341,7 @@ function robotIntervalFunc() {
 function robotNum() {
   robotCookies = robots * robotCookieAmount;
   cookiesNum += robotCookies;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
 
 // Ultra Instinct Incomplet //
@@ -350,7 +350,7 @@ function robot2() {
   if (cookiesNum >= robot2Amount) {
     cookiesNum -= robot2Amount;
     robots2 += 1;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     robot2IntervalFunc()
     document.querySelector("#cookie").src = './images/10.png'
     document.querySelector('body').style.backgroundImage = "url('images/f.png')";
@@ -367,7 +367,7 @@ function robot2IntervalFunc() {
 function robot2Num() {
   robot2Cookies = robots2 * robot2CookieAmount;
   cookiesNum += robot2Cookies;
-  cookies.innerHTML = cookiesNum + " Cookies";
+  cookies.innerHTML = cookiesNum + " Ki";
 }
 
 //Ultra Instinct Complet//
@@ -376,7 +376,7 @@ function thanosgo() {
   if (cookiesNum >= thanosAmount) {
     cookiesNum -= thanosAmount;
     thanos += 1;
-    cookies.innerHTML = cookiesNum + " Cookies";
+    cookies.innerHTML = cookiesNum + " Ki";
     thanosIntervalFunc()
     document.querySelector("#cookie").src = './images/11.png'
     document.querySelector('body').style.backgroundImage = "url('images/g.png')";
